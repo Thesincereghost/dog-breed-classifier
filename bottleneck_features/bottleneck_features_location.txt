@@ -1,0 +1,6 @@
+- Since these models are huge and calculating outputs of the frozen layers is very memory intensive, I will be using pre-computed values for this. They can be downloaded from here : 
+    - [VGG-19](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG19Data.npz) 
+    - [ResNet-50](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogResnet50Data.npz) 
+    - [Inception](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz) 
+    - [Xception](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogXceptionData.npz) 
+- Download all four of the above linked files and save them to 'bottleneck_features/'
