@@ -5,7 +5,7 @@
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
-4. [Conclusion](#Conclusion)
+4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
@@ -31,9 +31,10 @@
 + Saved model/ : For all models trained, weights with the best validation loss are saved here.
 + bottleneck_features/ : Location to save the pre-computed bottleneck features
 
-## Conclusion <a name="Conclusion"></a>
+## Results<a name="results"></a>
 
-It is clear that transfer learning yields the best results for the shortest training time. Also Image augmentation increases accuracy but also takes much longer to train
+The main findings of the code can be found at the post available [here](https://medium.com/@thesincereghost/dog-breed-classification-using-cnns-bd2be946a1fa).
+It is clear that transfer learning yields the best results for the shortest training time. Also Image augmentation increases accuracy but also takes much longer to train.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
